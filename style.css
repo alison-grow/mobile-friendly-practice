@@ -8,6 +8,26 @@ html, body {
     background-color: #ffffff;
 }
 
+@media screen and (max-width:1024px) {
+    body {background-color: #696969;}
+    #gra-2 {stop-color:#497000 !important;}
+    #gra-3 {stop-color: #8edb00 !important;}
+}
+@media screen and (max-width:768px) {
+    body {background-color: #323232;}
+    #gra-2 {stop-color:#751b00 !important;}
+    #gra-3 {stop-color: #db3300 !important;}
+}
+@media screen and (max-width:480px) {
+    body {background-color: #000000;}
+    #gra-2 {stop-color:#7c0057 !important;}
+    #gra-3 {stop-color: #db0099 !important;}
+}
+
+@media screen and (max-width:768px) {
+    section {margin-left:50px; margin-right:50px;}
+}
+
 .hero {
     font-family: 'Roboto', sans-serif;
 }
